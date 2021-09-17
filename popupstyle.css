@@ -1,0 +1,18 @@
+body {
+	background-image:url("https://m.media-amazon.com/images/M/MV5BMzMwOGMxOWYtZjYzMi00ZDI0LTg4ZTEtMmExOWUwODM2MzhmXkEyXkFqcGdeQXVyMjc1ODY1NDI@._V1_.jpg");
+	background-size: 100%;
+}
+
+.linklist {
+	font-size:16px;
+	color:white;
+}
+
+.icon {
+	width:16px;
+	height:16px;
+	
+	position:relative;
+	top:3px;
+
+}
