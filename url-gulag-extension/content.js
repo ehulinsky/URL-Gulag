@@ -2,7 +2,6 @@ function createPopup(){
     console.log("Created");
     var div = document.createElement("div");
 	div.id = "URL_Gulag_popup"
-	div.style.background="chrome-extension://fbmkfmefmcnofaphjnpegncejakldehk/stalin.png";
 	div.style.all = "initial";
     div.style.width = "200px";
     div.style.height = "200px";
@@ -12,7 +11,7 @@ function createPopup(){
 	div.style.transform="translate(-50%, -50%)";
 	div.style.backgroundColor="red";
 	div.style.visibility = "hidden";
-	div.style.zIndex = "100000000";
+	div.style.zIndex = "1000000000";
     div.innerHTML = "Oh no comrade!!! You let <div style='all:inital' id='URL_Gulag_popup_domain'> WEBSITE </div> escape the Gulag!!!! Close the tab for the motherland!!!! </br> <a style='font-size:30px;' id='URL_Gulag_popup_button'> ok</a>";
     document.body.appendChild(div);
 }
